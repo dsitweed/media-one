@@ -1,0 +1,6 @@
+Báo cáo:
+- yêu cầu đề bài 
+- Các chức năng
+- Biểu đồ UML
+- Ảnh giao diện
+- 
