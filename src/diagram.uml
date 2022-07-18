@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="147.97810688000004" y="342.31017216">model.Store</node>
+    <node x="-510.02189311999996" y="-217.68982784000002">model.product.Book</node>
+    <node x="1123.62528384" y="745.3078528">model.Customer</node>
+    <node x="187.47810688000004" y="254.81017215999998">Main</node>
+    <node x="619.47810688" y="830.8979776">model.person.Person</node>
+    <node x="-83.52189311999996" y="-22.68982784000002">model.product.Product</node>
+    <node x="430.97810688000004" y="212.81017215999998">io.IO</node>
+    <node x="134.47810688000004" y="-10.68982784000002">model.Rank</node>
+    <node x="94.47810688000004" y="472.31017216">util.Menu</node>
+    <node x="971.5713855999998" y="501.23057664">model.person.Staff</node>
+    <node x="-70.52189311999996" y="-205.68982784000002">model.product.MusicDisc</node>
+    <node x="363.47810688000004" y="270.31017216">model.Bill</node>
+    <node x="939.3760844799999" y="965.38512896">model.person.Manager</node>
+    <node x="-70.02189311999996" y="205.31017215999998">model.Fee</node>
+    <node x="948.3673408" y="1178.98851968">model.person.Customer</node>
+    <node x="619.47810688" y="330.31017216">model.CartItem</node>
+    <node x="-303.52189311999996" y="-217.68982784000002">model.product.MovieDisc</node>
+    <node x="296.47810688000004" y="-70.68982784000002">model.Warehouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.product.Book" target="model.product.Product" relationship="GENERALIZATION">
+      <point x="0.0" y="77.0" />
+      <point x="-425.52189311999996" y="69.31017215999998" />
+      <point x="-90.0" y="15.0" />
+    </edge>
+    <edge source="model.product.MovieDisc" target="model.product.Product" relationship="GENERALIZATION">
+      <point x="0.0" y="77.0" />
+      <point x="-217.52189311999996" y="54.31017215999998" />
+      <point x="-90.0" y="0.0" />
+    </edge>
+    <edge source="model.person.Manager" target="model.person.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="41.0" />
+      <point x="1039.87608448" y="886.89780544" />
+      <point x="64.5" y="14.999827839999966" />
+    </edge>
+    <edge source="model.product.MusicDisc" target="model.product.Product" relationship="GENERALIZATION">
+      <point x="0.0" y="65.0" />
+      <point x="0.0" y="-77.0" />
+    </edge>
+    <edge source="model.Customer" target="model.person.Person" relationship="GENERALIZATION">
+      <point x="123.49989311999991" y="-1.7216000003372756E-4" />
+      <point x="836.0" y="798.30768064" />
+      <point x="836.0" y="871.89780544" />
+      <point x="64.49989311999991" y="-1.7216000003372756E-4" />
+    </edge>
+    <edge source="model.person.Staff" target="model.person.Person" relationship="GENERALIZATION">
+      <point x="72.02189311999996" y="64.99982784000002" />
+      <point x="1122.5932787199997" y="456.5" />
+      <point x="836.0" y="456.5" />
+      <point x="836.0" y="871.89780544" />
+      <point x="64.49989311999991" y="-1.7216000003372756E-4" />
+    </edge>
+    <edge source="model.person.Customer" target="model.person.Person" relationship="GENERALIZATION">
+      <point x="0.0" y="-53.0" />
+      <point x="1071.8673408" y="1135.19803776" />
+      <point x="683.97810688" y="1135.19803776" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7450580596923828" showDependencies="false" x="465.97810688000004" y="228.31017215999998" />
+  <SelectedNodes>
+    <node>io.IO</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
